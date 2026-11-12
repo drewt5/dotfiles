@@ -1,7 +1,8 @@
 font-family = "UbuntuMono Nerd Font Mono"
 font-size = 18
-theme = light:Rose Pine Dawn,dark:Rose Pine Moon
-background-opacity = 0.8
+# theme = light:Rose Pine Dawn,dark:Rose Pine Moon
+theme = Ayu
+background-opacity = 1.0
 cursor-style = block
 shell-integration-features = no-cursor
 

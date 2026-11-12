@@ -30,12 +30,14 @@ yabai -m config split_ratio 0.50
 # Unmanaged apps
 yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add title="^Settings$" manage=off
+yabai -m rule --add title="^Explore$" manage=off
 yabai -m rule --add title="^Preferences$" manage=off
 yabai -m rule --add app="^System Information$" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
 yabai -m rule --add app="^Karabiner" manage=off
 yabai -m rule --add app="^Archive Utility$" manage=off
 yabai -m rule --add app="^Surfshark$" manage=off
+yabai -m rule --add app="^Proton VPN$" manage=off
 yabai -m rule --add app="^Music$" manage=off
 yabai -m rule --add app="^Calendar$" manage=off
 yabai -m rule --add app="^Contacts$" manage=off
@@ -43,6 +45,8 @@ yabai -m rule --add app="^Messages$" manage=off
 yabai -m rule --add app="^FaceTime$" manage=off
 yabai -m rule --add app="^Maps$" manage=off
 yabai -m rule --add app="^Weather$" manage=off
+yabai -m rule --add app="^Minecraft Launcher$" manage=off
+yabai -m rule --add app="^java$" manage=off
 yabai -m rule --add app="^App Store$" manage=off
 yabai -m rule --add app="^Photos$" manage=off
 yabai -m rule --add app="^Preview$" manage=off

@@ -13,6 +13,7 @@ export PATH="/opt/homebrew/bin:$PATH"
 export ANDROID_HOME="$HOME/Library/Android/sdk"
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH="$HOME/.bend/bin:$PATH"
 
 # asdf
 [ -f /opt/homebrew/opt/asdf/libexec/asdf.sh ] && . /opt/homebrew/opt/asdf/libexec/asdf.sh
@@ -37,3 +38,5 @@ export PATH="$PATH:/Users/drewtaylor/.lmstudio/bin"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+[ -f "/Users/drewtaylor/.ghcup/env" ] && . "/Users/drewtaylor/.ghcup/env" # ghcup-env
